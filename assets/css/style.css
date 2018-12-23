@@ -6,6 +6,8 @@ body {
     margin: 0;
     background-color: lightpink;
     overflow:hidden;
+    overflow-y:hidden;
+    overflow-x: hidden;
 }
 
 #i_love{
