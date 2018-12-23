@@ -80,7 +80,7 @@ function content()
         if (event.key === "Enter") {
             var lolo = event.target.value
             if(lolo!=""){
-                window.location.replace(window.location.href+"?"+lolo);
+                window.location.replace(location.protocol + '//' + location.host + location.pathname+"?"+lolo);
             }
         }
         };
@@ -91,7 +91,7 @@ function content()
         boutton_add.onclick = function(event){
             var lolo = event.target.parentElement.firstChild.value;
             if(lolo!=""){
-                window.location.replace(window.location.href+"?"+lolo);
+                window.location.replace(location.protocol + '//' + location.host + location.pathname+"?"+lolo);
             }
         }
         div_add.append(boutton_add);
