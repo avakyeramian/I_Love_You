@@ -21,6 +21,9 @@ body {
 
 .heart{
     position: absolute;
+    overflow: hidden;
+    overflow-y:hidden;
+    overflow-x: hidden;
     z-index: -1;
 }
 
