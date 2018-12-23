@@ -105,8 +105,8 @@ function content()
     function heart(){
         if(max_heart>0){
             max_heart = max_heart - 1;
-            var pos_w = Math.floor(Math.random() * (screen_w-50))+25;
-            var pos_h = Math.floor(Math.random() * (screen_h-50))+25;
+            var pos_w = Math.floor(Math.random() * (screen_w-60))+30;
+            var pos_h = Math.floor(Math.random() * (screen_h-60))+30;
             var heart = document.createElement("div");
             heart.setAttribute("class","heart");
             heart.style.top = pos_h + "px";
