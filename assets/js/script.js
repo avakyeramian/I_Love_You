@@ -32,7 +32,7 @@ function content()
     /* -- init dom vars  -- */
     
     var love_div = document.getElementById("i_love");
-    var max_heart = 50;
+    var max_heart = 20;
 
     
     if(window.location.search)
